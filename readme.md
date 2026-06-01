@@ -1,4 +1,4 @@
-# CS235 Methods Project — Machine Learning Techniques
+# Methods Project — Machine Learning Techniques
 
 This project was completed as part of **CS235 (Data Mining Techniques)** at UC Riverside. It covers hands-on implementation of a range of machine learning techniques across three parts: data preprocessing, supervised learning, and unsupervised learning. All implementations are in Python using Jupyter Notebooks.
 
@@ -92,4 +92,4 @@ Used K-Means and Spectral Clustering to cluster the 20% held-out portion of Data
 - **Raw pixel data** — 28×28 images flattened to 784-dimensional vectors
 - **Learned representations** — output of the 2-layer CNN's convolutional base (before the FC layers), after training on the 80% split
 
-## The idea is that the CNN's convolutional base should compress pixel data into a more structured, semantically meaningful feature space, making it easier for clustering algorithms to separate digit classes. Performance is measured using the Silhouette coefficient, averaged over 10 random initialisations (mean ± std) for K = 2 to 5. K=1 is excluded as the silhouette score is undefined for a single cluster.
+The idea is that the CNN's convolutional base should compress pixel data into a more structured, semantically meaningful feature space, making it easier for clustering algorithms to separate digit classes. Performance is measured using the Silhouette coefficient, averaged over 10 random initialisations (mean ± std) for K = 2 to 5. K=1 is excluded as the silhouette score is undefined for a single cluster.
